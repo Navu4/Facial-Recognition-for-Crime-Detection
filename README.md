@@ -13,16 +13,10 @@ Now, if the above technology is used for thousands of videos gathered from hundr
 
 Model Build on Keeping These Criteria in Mind:
 Performance of model
-Model selection
-
-Scalability
-
-Scalability of model
-
-Retrainable model
-
-Accessibility
-
-User friendly
-
-Accuracy
+- Model selection
+- Scalability
+- Scalability of model
+- Retrainable model
+- Accessibility
+- User friendly
+- Accuracy
