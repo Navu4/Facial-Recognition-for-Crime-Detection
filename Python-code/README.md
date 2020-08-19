@@ -1,5 +1,5 @@
 # Python OpenCV
-### This is a demo trained and test on a single video. By changing the Path of the input Testing video's the "LBPHFaceRecognizer" will recognize the faces of the characters in video streams
+### This is a demo trained and test on a single video. By changing the Path of the input Training and Testing video's the "LBPHFaceRecognizer" will be able to recognize the faces of the characters in video streams
 Task 1: Analyze a 30 second- 1 min video, and capture faces of the people in the same.
 
 Task 2 Analyze another video to see how many of the persons in the first video are seen again in the second video and at what times.
