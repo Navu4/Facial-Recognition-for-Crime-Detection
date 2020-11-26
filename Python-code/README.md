@@ -9,21 +9,17 @@ Task 3 if the above technology is used for thousands of videos gathered from hun
 
 ### Steps to Run :
 - Capturing faces from the training video using haarcascode_frontalface_default.xml.
-
-face_detection.py
+> [Face Detection](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/face_detection.py) 
 
 - Created the 128-d embeddings i.e. Feature Vectors for each face in the dataset and stored it in eci.picke file.
-
-Encoding_dataset_into_different_folders.py
+> [Encoding_dataset_into_different_folders](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/Encoding_dataset_into_different_folders.py)
 
 -Then cluster the images by comparing the Feature Vectors into different folders using "DBSCAN clustering".
-
-final_encoding.py
+> [Encoding](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/final_encoding.py)
 
 - Train the model "LBPHFaceRecognizer" using the labelled images that we clustered in previous step.
 
-Face_Recog_Train_CR.py
+> [Face Recog Train](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/Face_Recog_Test_CR.py)
 
 - Using "LBPHFaceRecognizer", recognize the faces of the characters in video streams.
-
-Face_Recog_Test_CR.py
+> [Face Recog Test](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/Face_Recog_Test_CR.py)
