@@ -14,7 +14,7 @@ Task 3 if the above technology is used for thousands of videos gathered from hun
 - Created the 128-d embeddings i.e. Feature Vectors for each face in the dataset and stored it in eci.picke file.
 > [Encoding_dataset_into_different_folders](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/Encoding_dataset_into_different_folders.py)
 
--Then cluster the images by comparing the Feature Vectors into different folders using "DBSCAN clustering".
+- Then cluster the images by comparing the Feature Vectors into different folders using "DBSCAN clustering".
 > [Encoding](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/final_encoding.py)
 
 - Train the model "LBPHFaceRecognizer" using the labelled images that we clustered in previous step.
