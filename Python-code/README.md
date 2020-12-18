@@ -19,7 +19,7 @@ Task 3 if the above technology is used for thousands of videos gathered from hun
 
 - Train the model "LBPHFaceRecognizer" using the labelled images that we clustered in previous step.
 
-> [Face Recog Train](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/Face_Recog_Test_CR.py)
+> [Face Recog Train](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/FaceRecog_Train.py)
 
 - Using "LBPHFaceRecognizer", recognize the faces of the characters in video streams.
-> [Face Recog Test](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/Face_Recog_Test_CR.py)
+> [Face Recog Test](https://github.com/Navu4/Facial-Recognition-for-Crime-Detection/blob/master/Python-code/FaceRecog_Test.py)
