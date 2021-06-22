@@ -1,6 +1,8 @@
 # Facial-Recognition-for-Crime-Detection
  Face recognition software to detect criminals in images and videos, noting their time of occurences.
 
+## Demo Video [Link](https://www.youtube.com/watch?v=M5v2rXOalcw)
+
 ### Problem Statement: Build a face recognition analytics system for law enforcement agencies
 #
 Problem Description:
@@ -10,8 +12,6 @@ One aspect of the use of technology in law enforcement is video analytics, and v
 The task here is to analyze a 30 second- 1 min video, and capture faces of the people in the same, and then analyze another video to see how many of the persons in the first video are seen again in the second video and at what times.
 
 Now, if the above technology is used for thousands of videos gathered from hundreds of intelligence sources, with cross-checks across all videos, really significant information on patterns in any form of organized crime can be identified.
-
-## Demo Video [Link](https://www.youtube.com/watch?v=M5v2rXOalcw)
 
 
 ## Model Build on Keeping These Criteria in Mind:
