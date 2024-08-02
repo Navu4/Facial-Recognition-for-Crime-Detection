@@ -43,13 +43,28 @@ for i in range(5):
 def goBack():
     global active_page, thread_event, webcam
 
-    if (active_page==4 and not thread_event.is_set()):
-        thread_event.set()
-        webcam.release()
+    if (active_page == 2 ):
+        pages[2].lift()
+        active_page = 2
+        
 
     for widget in pages[active_page].winfo_children():
         widget.destroy()
 
+    if (active_page == 4 and not thread_event.is_set()):
+        thread_event.set()
+        webcam.release()
+    pages[3].lift()
+    active_page = 3
+        
+
+    for widget in pages[active_page].winfo_children():
+        widget.destroy()
+    
+    pages[4].lift()
+    active_page = 4
+    for widget in pages[active_page].winfo_children():
+        widget.destroy()
     pages[0].lift()
     active_page = 0
 
@@ -212,8 +227,9 @@ def register(entries, required, menu_var):
         shutil.rmtree(path, ignore_errors=True)
     else:
         # Storing data in database
-        insertData(entry_data)
-        rowId=1
+        # insertData(entry_data)  ------>Because the profile_pics Folder Stored  Only One Images For The Reason This (rowId=1) 
+        # rowId=1
+        rowId = insertData(entry_data) #------>Solved Issue
         if(rowId >= 0):
             messagebox.showinfo("Success", "Criminal Registered Successfully.")
             shutil.move(path, os.path.join('face_samples', entry_data["Name"]))
